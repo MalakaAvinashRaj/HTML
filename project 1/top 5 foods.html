@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            margin:0;
+        }
+
+        body {
+            background-color:rgb(240, 180, 180) ;
+        }
+
+        .top-bar {
+            background-color: rgb(211, 194, 171);
+            padding:15px;
+            padding-left: 30px;
+            font-weight:bold;
+            font-family:'sanserif';
+        }
+
+        #menu-item {
+            padding-right: 10px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        
+        .middle h4 {
+            font-size: 20px;
+            padding: 27px;
+        }
+
+        #list {
+            display: flex;
+            flex-direction: column;
+            style= "list-style-type: circle";
+            font-size: 18px;
+            line-height:1.3;
+        }
+
+        .images {
+            text-align:center;
+            margin:auto;
+            margin-top: 100px;
+        }
+
+        .bottom {
+            text-align:center;
+            justify-content:center;  
+        }
+
+        #biryani {
+            height: 200px;
+        }
+
+        .caption {
+            font-size:18px;
+            font-style: italic;
+            font-weight: 800;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <span id="menu-item">Index</span>
+        <span id="menu-item">Food</span>
+        <span id="menu-item">About</span>
+    </div>
+
+    <div class="middle">
+        <h4>Top 5 Favourite Foods: </h4>
+
+        <ul id="list">
+            <li><a href="#biryani">Biryani</a></li>
+            <li><a href="#pizza">Pizza</a></li>
+            <li><a href="#oats">Oats</a></li>
+            <li><a href="#pani-puri">Pani-puri</a></li>
+            <li><a href="#noodles">Noodles</a></li>
+        </ul>
+    </div>
+
+    <div class="bottom">
+        <div class="images">
+            <img id="biryani" src="/biryani.jpg" alt="">
+            <p class="caption">Biryani</p>
+        </div>
+        <div class="images">
+            <img id="pizza" src="/pizza.jpg" alt="">
+            <p class="caption">Pizza</p>
+        </div>
+        <div class="images">
+            <img id="oats" src="/oats.jpg" alt="">
+            <p class="caption">Oats</p>
+        </div>
+        <div class="images">
+            <img id="pani-puri" src="/pani-puri.png" alt="">
+            <p class="caption">Pani-Puri</p>
+        </div>
+        <div class="images">
+            <img id="noodles" src="/noodles.jpg" alt="">
+            <p class="caption">Noodles</p>
+        </div>
+    </div>
+
+</body>
+</html>
